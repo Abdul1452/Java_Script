@@ -17,4 +17,3 @@ console.log(fullName);
 console.log(fullName[0])
 
 // string length 
-
