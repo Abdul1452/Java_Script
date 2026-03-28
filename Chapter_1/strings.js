@@ -1,5 +1,5 @@
 // strings
-comsole.log("hello, world");
+console.log("hello, world");
 
 let email = "ola@learningjavascript.fi"
 console.log(email)
@@ -17,3 +17,31 @@ console.log(fullName);
 console.log(fullName[0])
 
 // string length 
+console.log(fullName.length)
+
+// string methods
+console.log(fullName.toUpperCase());
+let result = fullName.toLowerCase();
+
+console.log(result, fullName);
+
+let index = email.indexOf("@");
+console.log(index);
+
+// common strng methods 
+let icloud = "ola@javascript.co.fi";
+
+// let outcome = icloud.lastIndexOf("i");
+
+// let outcome = icloud.slice(2,5);
+
+// let outcome = icloud.substr(4,10)
+
+let outcome = icloud.replace("j", "T")
+
+
+
+
+console.log(outcome)
+
+
